@@ -1,9 +1,11 @@
-import { dmSans, figtree, outfit, roboto } from "@/components/ui/fonts";
+import { dmSans, figtree, outfit, roboto } from "@/components/ui/font";
 import "./globals.css";
 
 export const metadata = {
-  title: "Bento Grid App",
-  description: "A modern bento grid social media management app",
+  title: "SocialBoost - Social Media Management Platform",
+  description:
+    "Create, schedule, and optimize your social media content with our all-in-one platform powered by AI.",
+  keywords: "social media, management, AI, content creation, scheduling",
 };
 
 export default function RootLayout({ children }) {

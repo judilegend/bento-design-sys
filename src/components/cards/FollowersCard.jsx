@@ -10,11 +10,11 @@ import BentoCard from "../BentoCard";
 export default function FollowersCard() {
   return (
     <BentoCard
-      className="flex flex-row justify-center items-center gap-2.5"
+      className="flex flex-row justify-center bg-blue-400 items-center gap-2.5"
       gridArea="5 / 5 / 7 / 9"
       bgColor="bg-purple"
     >
-      <div className="relative w-[150px] h-[100px] ml-5">
+      <div className="relative w-[200px] h-[150px] ml-5">
         <Image
           src="/images/illustration-grow-followers.webp"
           alt="Grow followers illustration"
